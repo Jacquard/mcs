@@ -24,6 +24,8 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+    void on_tabWidget_tabBarClicked(int index);
+
 private:
     Ui::Dialog *ui;
     QCryptographicHash *hash;
